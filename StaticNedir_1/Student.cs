@@ -15,11 +15,13 @@ namespace StaticNedir_1
         public void Test1()
         {
             Console.WriteLine("Nesne örneği alındıktan sonra çalışan metot");
+            // Test2(); burada çağırabiliriz
         }
 
         public static void Test2()
         {
             Console.WriteLine("Nesne örneği alınmadan kullanılabilir");
+            //Test1(); -> çağıramayız burada çünkü  nesne örneklemesi lazım
         }
 
     }

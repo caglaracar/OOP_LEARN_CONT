@@ -8,9 +8,12 @@
             // Tip M1= new Tip();
             // Tip.id=123;
 
-            Student student1 = new Student();
-            student1.Test1();
+            Student student1;
             Student.Test2();
+            student1 = new Student();
+
+            student1.Test1();
+
         }
     }
 }
