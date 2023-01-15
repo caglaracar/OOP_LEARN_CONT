@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kalitim_1
 {
-    internal class Teacher :BaseType
+    internal sealed class Teacher : Personel
     {
         public string Branch { get; set; }
         public int BranchLevel { get; set; }

@@ -7,19 +7,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Nedir", "OOP_Nedir\OOP_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Nedir_2_Constructor", "OOP_Nedir_2_Constructor\OOP_Nedir_2_Constructor.csproj", "{A76ED3B9-FE0C-4A9A-9E96-5753329CD25E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Nedir_3_Encapsulation", "OOP_Nedir_3_Encapsulation\OOP_Nedir_3_Encapsulation.csproj", "{38D0F4AD-E8B6-4F54-8636-E3B8E31E83BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Nedir_3_Encapsulation", "OOP_Nedir_3_Encapsulation\OOP_Nedir_3_Encapsulation.csproj", "{38D0F4AD-E8B6-4F54-8636-E3B8E31E83BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Nedir_3_Encapsulation_Project", "OOP_Nedir_3_Encapsulation_Project\OOP_Nedir_3_Encapsulation_Project.csproj", "{49BC0064-C0CB-4F12-A434-F213F58295FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Nedir_3_Encapsulation_Project", "OOP_Nedir_3_Encapsulation_Project\OOP_Nedir_3_Encapsulation_Project.csproj", "{49BC0064-C0CB-4F12-A434-F213F58295FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticNedir_1", "StaticNedir_1\StaticNedir_1.csproj", "{D4FDDF2C-6362-4EE8-9C12-A678455C171E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticNedir_1", "StaticNedir_1\StaticNedir_1.csproj", "{D4FDDF2C-6362-4EE8-9C12-A678455C171E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticNedir_2", "StaticNedir_2\StaticNedir_2.csproj", "{6A6528F2-5607-4CCD-B520-67A4F7434500}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticNedir_2", "StaticNedir_2\StaticNedir_2.csproj", "{6A6528F2-5607-4CCD-B520-67A4F7434500}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticNedir_3Project", "StaticNedir_4Project\StaticNedir_3Project.csproj", "{F2800D61-499A-4EA5-93D5-7E4BF48060BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticNedir_3Project", "StaticNedir_4Project\StaticNedir_3Project.csproj", "{F2800D61-499A-4EA5-93D5-7E4BF48060BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnerType", "InnerType\InnerType.csproj", "{3F8206DF-0006-405E-BF2A-692B25C0AFBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InnerType", "InnerType\InnerType.csproj", "{3F8206DF-0006-405E-BF2A-692B25C0AFBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalitim_1", "Kalitim_1\Kalitim_1.csproj", "{A7A12C75-1528-485A-A0CF-4B45717ED60D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kalitim_1", "Kalitim_1\Kalitim_1.csproj", "{A7A12C75-1528-485A-A0CF-4B45717ED60D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kalitim2", "Kalitim2\Kalitim2.csproj", "{9D4C5813-4E1E-4F44-BD61-6F0F2B9FB849}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualMethods", "VirtualMethods\VirtualMethods.csproj", "{CEB0FD6A-2837-41EB-8A48-7107EB7A3EE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface_Abstract", "Interface_Abstract\Interface_Abstract.csproj", "{E0436AAA-9A7C-4CD7-B400-2A972C400959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalitim3", "Kalitim3\Kalitim3.csproj", "{0089515A-8F86-4ACB-958F-E30286C757E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +71,22 @@ Global
 		{A7A12C75-1528-485A-A0CF-4B45717ED60D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7A12C75-1528-485A-A0CF-4B45717ED60D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7A12C75-1528-485A-A0CF-4B45717ED60D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D4C5813-4E1E-4F44-BD61-6F0F2B9FB849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4C5813-4E1E-4F44-BD61-6F0F2B9FB849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4C5813-4E1E-4F44-BD61-6F0F2B9FB849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4C5813-4E1E-4F44-BD61-6F0F2B9FB849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEB0FD6A-2837-41EB-8A48-7107EB7A3EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB0FD6A-2837-41EB-8A48-7107EB7A3EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB0FD6A-2837-41EB-8A48-7107EB7A3EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB0FD6A-2837-41EB-8A48-7107EB7A3EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0436AAA-9A7C-4CD7-B400-2A972C400959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0436AAA-9A7C-4CD7-B400-2A972C400959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0436AAA-9A7C-4CD7-B400-2A972C400959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0436AAA-9A7C-4CD7-B400-2A972C400959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0089515A-8F86-4ACB-958F-E30286C757E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0089515A-8F86-4ACB-958F-E30286C757E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0089515A-8F86-4ACB-958F-E30286C757E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0089515A-8F86-4ACB-958F-E30286C757E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

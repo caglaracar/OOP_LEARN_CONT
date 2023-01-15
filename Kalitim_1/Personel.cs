@@ -12,5 +12,10 @@ namespace Kalitim_1
         public DateTime IsDoneTime { get; set; }
         public int OffDayCount { get; set; }
 
+        public Personel()
+        {
+            BaseTypeMethod2(); // buradan da ulaşabilirsin ! ! ! 
+        }
+
     }
 }

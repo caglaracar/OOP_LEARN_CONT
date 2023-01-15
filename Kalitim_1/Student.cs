@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kalitim_1
 {
-    internal sealed class  Student : BaseType
+    internal sealed class Student : BaseType
     {
         public string Depertmant { get; set; }
         public int Level { get; set; }
