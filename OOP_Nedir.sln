@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticNedir_3Project", "Sta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnerType", "InnerType\InnerType.csproj", "{3F8206DF-0006-405E-BF2A-692B25C0AFBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalitim_1", "Kalitim_1\Kalitim_1.csproj", "{A7A12C75-1528-485A-A0CF-4B45717ED60D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{3F8206DF-0006-405E-BF2A-692B25C0AFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F8206DF-0006-405E-BF2A-692B25C0AFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F8206DF-0006-405E-BF2A-692B25C0AFBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A12C75-1528-485A-A0CF-4B45717ED60D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A12C75-1528-485A-A0CF-4B45717ED60D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A12C75-1528-485A-A0CF-4B45717ED60D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A12C75-1528-485A-A0CF-4B45717ED60D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

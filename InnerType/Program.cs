@@ -42,7 +42,7 @@
             {
                 OrderNumber = "1"
             };
-            C1.customerAdressList[0].CustomerAdressTestMethod();
+         
             C1.CustomerOrderDetailList[0].products[0] = new Product()
             {
                 definition = "laptop",
@@ -51,6 +51,9 @@
 
             };
 
+            C1.customerAdressList[0].CustomerAdressTestMethod();
+            C1.CustomerCommunicationList[0].CustomerCommunicationTestMethod();
+            
         }
     }
-}
+    }
