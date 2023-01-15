@@ -25,9 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kalitim2", "Kalitim2\Kaliti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualMethods", "VirtualMethods\VirtualMethods.csproj", "{CEB0FD6A-2837-41EB-8A48-7107EB7A3EE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface_Abstract", "Interface_Abstract\Interface_Abstract.csproj", "{E0436AAA-9A7C-4CD7-B400-2A972C400959}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract", "Interface_Abstract\Abstract.csproj", "{E0436AAA-9A7C-4CD7-B400-2A972C400959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalitim3", "Kalitim3\Kalitim3.csproj", "{0089515A-8F86-4ACB-958F-E30286C757E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kalitim3", "Kalitim3\Kalitim3.csproj", "{0089515A-8F86-4ACB-958F-E30286C757E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{383BC860-7F8F-43AC-8BD6-6FAFB3D78A8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{FE501349-95D7-445B-841E-FEE078097927}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{0089515A-8F86-4ACB-958F-E30286C757E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0089515A-8F86-4ACB-958F-E30286C757E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0089515A-8F86-4ACB-958F-E30286C757E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383BC860-7F8F-43AC-8BD6-6FAFB3D78A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383BC860-7F8F-43AC-8BD6-6FAFB3D78A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383BC860-7F8F-43AC-8BD6-6FAFB3D78A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383BC860-7F8F-43AC-8BD6-6FAFB3D78A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE501349-95D7-445B-841E-FEE078097927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE501349-95D7-445B-841E-FEE078097927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE501349-95D7-445B-841E-FEE078097927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE501349-95D7-445B-841E-FEE078097927}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

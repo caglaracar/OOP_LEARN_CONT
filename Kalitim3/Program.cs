@@ -5,45 +5,66 @@
         static void Main(string[] args)
         {
             new D();
+            new MyClass2();
         }
-        class A
+        class MyClass
         {
-            public A()
+            public int id { get; set; }
+            public MyClass(int id)
             {
-                Console.WriteLine($" A sınıfının ismi: {nameof(A)}");
-            }
-
-        }
-
-        class B:A
-        {
-            public B()
-            {
-                Console.WriteLine($" B sınıfının ismi: {nameof(B)}");
-
+                this.id = id;
             }
         }
 
-        class C:B
+        class MyClass2 : MyClass
         {
-            public C()
+            public MyClass2() : base(5)
             {
-                Console.WriteLine($" C sınıfının ismi: {nameof(C)}");
 
             }
-
-        }
-
-        class D:C
-        {
-            public D()
+            public MyClass2(int c) : base(c)
             {
-                Console.WriteLine($" D sınıfının ismi: {nameof(D)}");
 
             }
-
+    }
+    class A
+    {
+        public A()
+        {
+            Console.WriteLine($" A sınıfının ismi: {nameof(A)}");
         }
-
 
     }
+
+    class B : A
+    {
+        public B()
+        {
+            Console.WriteLine($" B sınıfının ismi: {nameof(B)}");
+
+        }
+    }
+
+    class C : B
+    {
+        public C()
+        {
+            Console.WriteLine($" C sınıfının ismi: {nameof(C)}");
+
+        }
+
+    }
+
+    class D : C
+    {
+        public D()
+        {
+            Console.WriteLine($" D sınıfının ismi: {nameof(D)}");
+
+        }
+
+    }
+
+
+}
 }

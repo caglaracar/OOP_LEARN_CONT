@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Interface_Abstract
+namespace Abstract
 {
     internal abstract class BaseClass
     {
@@ -16,5 +16,18 @@ namespace Interface_Abstract
             RegisterTime = registerTime;
             UpdatedTime = updatedTime;
         }
+
+        public BaseClass()
+        {
+
+        }
+
+        public void Test()
+        {
+            Console.WriteLine("BaseClass inside Test Method");
+        }
+
+        public abstract void TestAbstract(); // abstract metotların metot body'si yoktur
+     
     }
 }

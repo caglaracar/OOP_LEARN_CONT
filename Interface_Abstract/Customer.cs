@@ -4,18 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Interface_Abstract
+namespace Abstract
 {
     internal class Customer : BaseClass
     {
         public int id { get; set; }
-        public Customer(int id) base(registerTime, updatedTime)
+        public Customer()
         {
-            this.id = id;
+            id = 1;
         }
 
-        public Customer(DateTime registerTime, DateTime updatedTime) : base(registerTime, updatedTime)
+        public override void TestAbstract()
         {
+            Console.WriteLine("test abstract metodu  override edildi");
         }
     }
 }
