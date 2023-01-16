@@ -23,6 +23,16 @@
             #endregion
             #region Generic Sınıf Tipi
             List<Customer> customers = new List<Customer>();
+
+            // uzun yoldan eleman ekleme
+            Customer customer1 = new Customer();
+            customer1.Id = 123;
+            customer1.Name = "gilfoyle";
+            customer1.Surname = "bertram";
+
+            customers.Add(customer1);
+
+            // veya hızlı nesne olusuturma işlemiyle yapabilirsin işlemleri
             customers.Add(new Customer() { Id = 1, Name = "Caglar", Surname = "Acar" });
             customers.Add(new Customer() { Id = 2, Name = "Burak", Surname = "erşen" });
             customers.Add(new Customer() { Id = 3, Name = "Burhan", Surname = "Taşkesen" });
@@ -35,14 +45,24 @@
             }
             #endregion
 
+
+
+
+
             #region Generic  AddRange metodu + diğer özellikler
             int[] myNums = { 1, 2, 3, 4, 5, 6 };
             List<int> MyNumberList = new List<int>();
             MyNumberList.AddRange(myNums);
+
+            // print
             foreach (var item in MyNumberList)
             {
                 Console.WriteLine(item);
             }
+
+
+            MyNumberList.Insert(3, 100);
+
 
             //------------------------------------------------
             int capacity = MyNumberList.Capacity;
@@ -50,11 +70,39 @@
             MyNumberList.TrimExcess();
             Console.WriteLine($"capacity : {capacity} count:  {count}");
 
-            MyNumberList.ForEach(i => Console.WriteLine(i));
+            MyNumberList.ForEach(item => Console.WriteLine(item));
+            // ikiside aynı şey
+            foreach (int item in MyNumberList)
+            {
+                Console.WriteLine(item);
+            }
 
+            
 
-            bool kontrol1 = MyNumberList.Any(i => i > 5);
+            bool kontrol1 = MyNumberList.Any(item => item > 5);
             Console.WriteLine(kontrol1);
+
+            MyNumberList.Sort();
+            MyNumberList.ForEach(item => Console.WriteLine(item));
+            Console.WriteLine("*");
+            MyNumberList.Reverse();
+            MyNumberList.ForEach(item => Console.WriteLine(item));
+
+            MyNumberList.RemoveAll(item => item > 25);
+            Console.WriteLine("*");
+            MyNumberList.Sort();
+
+            MyNumberList.ForEach(item => Console.WriteLine(item));
+
+            #endregion
+
+            #region bazı function's
+            int enBuyukDeger = MyNumberList.Max();
+            int enKucukDeger = MyNumberList.Min();
+            int toplamDeger = MyNumberList.Sum();
+            Console.WriteLine(enBuyukDeger);
+            Console.WriteLine(enKucukDeger);
+            Console.WriteLine(toplamDeger);
             #endregion
         }
     }

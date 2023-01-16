@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Abstract
 {
-    internal abstract class BaseClass
+    internal /*sealed*/ abstract class BaseClass // sealed olamaz 
     {
         public DateTime RegisterTime { get; set; }
         public DateTime UpdatedTime { get; set; }
