@@ -77,7 +77,7 @@
                 Console.WriteLine(item);
             }
 
-            
+
 
             bool kontrol1 = MyNumberList.Any(item => item > 5);
             Console.WriteLine(kontrol1);
@@ -103,6 +103,24 @@
             Console.WriteLine(enBuyukDeger);
             Console.WriteLine(enKucukDeger);
             Console.WriteLine(toplamDeger);
+            #endregion
+
+
+            #region CustomerGenericClass
+
+            CustomerGeneric<int> cg1 = new CustomerGeneric<int>()
+            {
+                Id = 1,
+                Name = "caglar",
+                Surname = "acar",
+                
+
+            };
+            cg1.TakeCustomerNumber();
+
+            CustomerGeneric<Guid> cg2 = new CustomerGeneric<Guid>();
+            cg2.TakeCustomerNumber();
+
             #endregion
         }
     }
